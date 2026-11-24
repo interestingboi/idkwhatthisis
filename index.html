@@ -3,12 +3,12 @@
   <head>
     <script>
       function btnLogic(){
-        document.getElementById("btn").textContext = "hi"
+        document.getElementById("btn").innerHTML = "hi"
       }
     </script>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <button id="btn" onClick="btnLogic()">Button of doom and despair</button>
+    <h1 id="btn">Hello World</h1>
+    <button onClick="btnLogic()">Button of doom and despair</button>
   </body>
 </html>
